@@ -293,6 +293,9 @@ header.nav-open #close-nav {
     75% {
         background-image: url(Images/Hero\ Image/hero4.jpg);
     }
+    100% {
+        background-image: url(Images/Hero\ Image/hero5.jpg);
+    }
     
 }
 
@@ -549,10 +552,10 @@ animation: service-entry ease-in-out both;
 
 #message {
    margin-bottom: 10px;
-   width: 80%;
+   width: 90%;
    height: 40%;
    font-size: 17px;
-   padding: 5px 30px ;
+   padding: 5px 10px ;
    border-radius: 5px;
    background: none;
    border: 1px solid white;
