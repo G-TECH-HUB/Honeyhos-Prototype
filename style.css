@@ -8,7 +8,7 @@
 body {
     margin: 0;
     font-family: sans-serif; 
-    background-color: #a7a5a560;
+    /* background-color: #a7a5a560; */
 }
 
 
@@ -19,7 +19,9 @@ header {
     text-align: center;
     padding: 3px 20px;
     position: relative;
-   background-color: #a7a5a560;
+   background-color: rgb(248, 247, 247);
+   position: sticky;
+   top: 0px;
 }
 
 header figure {
@@ -200,70 +202,6 @@ header.nav-open #close-nav {
   background-color: #0A66C2; /* LinkedIn Blue */
 }
 
- 
-/* Styles for larger screens (769px and up) */
-/*
-@media screen and (min-width: 769px) {
-    nav {
-        position: static;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        width: auto;
-        height: auto;
-        background-color: transparent;
-        padding: 0;
-        transform: translateX(0);
-        transition: none;
-    }
-
-    nav p {
-        margin: 0 1rem;
-    }
-
-    nav details {
-        margin: 0 1rem;
-        position: relative; 
-    }
-
-    nav details summary {
-        padding: 0.5rem;
-    }
-
-    .drop-menu {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        background-color: #555;
-        border-radius: 5px;
-        padding: 0.5rem;
-        margin-top: 0.5rem;
-        display: none;
-        opacity: 0;
-        visibility: hidden;
-        transform: translateY(-10px);
-        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-    }
-    
-
-    nav details[open] .drop-menu {
-        display: block;
-        opacity: 1;
-        visibility: visible;
-        transform: translateY(0);
-    }
-
-    nav p a {
-        display: inline;
-        padding: 0.5rem;
-    }
-
-    #open-nav,
-    #close-nav {
-        display: none;
-    }
-}
- */
 
 /* Hero Section */
 
@@ -292,9 +230,6 @@ header.nav-open #close-nav {
     }
     75% {
         background-image: url(Images/Hero\ Image/hero4.jpg);
-    }
-    100% {
-        background-image: url(Images/Hero\ Image/hero5.jpg);
     }
     
 }
@@ -552,10 +487,10 @@ animation: service-entry ease-in-out both;
 
 #message {
    margin-bottom: 10px;
-   width: 90%;
+   width: 80%;
    height: 40%;
    font-size: 17px;
-   padding: 5px 10px ;
+   padding: 5px 30px ;
    border-radius: 5px;
    background: none;
    border: 1px solid white;
