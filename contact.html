@@ -28,7 +28,7 @@
                 <summary style="padding-top: 10px;">Services</summary>
                 <div  class="drop-menu">
                     <p><a href="#">Real Estate Management</p></a>
-                    <p><a href="#">Event Management</p></a>
+                    <p><a href="event.html">Event Management</p></a>
                     <p><a href="#">Home Interior</p></a>
                     <p><a href="#">Reservation</p></a>
                    <p><a href="#">Promotion</p></a>
@@ -92,27 +92,27 @@
     <div class="contact-info">
         <h3 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Send us a message</h3>
     <div class="details"> 
-        <P style="padding: 0; margin: 0;">First Name</P>
+        <label for="name">First Name</label>
       <input type="text" class="form-control" placeholder="" aria-label="First name" required>
     </div>
    
     <div class="details">
-        <P style="padding: 0; margin: 0;">Last Name</P>
+        <label for="name">Last Name</label>
       <input type="text" class="form-control" placeholder="" aria-label="Last name" required>
     </div>
     
     <div class="details">
-        <P style="padding: 0; margin: 0;">Email Address</P>
+        <label for="email">Email Address</label>
       <input type="email" class="form-control" placeholder="" aria-label="enter your email" required>
     </div>
    
     <div class="details">
-        <P style="padding: 0; margin: 0;">Phone Number</P>
+        <label for="number">Phone number</label>
       <input type="number" class="form-control" placeholder="" aria-label="" required>
     </div>
     
     <div class="col-auto" style="padding-top: 10px; width: 70%;">
-        <P style="padding: 0; margin: 0;">Services</P>
+        <label for="Preference">Services</label>
         <label class="visually-hidden" for="autoSizingSelect">Preference</label>
         <select class="form-select" id="autoSizingSelect">
           <option selected>Real Estate Management</option>
@@ -125,12 +125,20 @@
 
       <div class="details">
         <!-- <form action="https://formsubmit.co/honeyhospitalityorg@gmail.com" method="POST" id="contact-form" data-formsubmit-ajax> -->
-           <textarea name="message" id="listmessage"  placeholder="Enter Message..." ></textarea><br>
+           <textarea name="message" id="listmessage"  placeholder="Enter Message..." rows="4" ></textarea><br>
            <button type="submit" id="submit" >Send Message</button>
            <p id="message-status"></p>
         </form>
-     </div> 
- 
+     </div>
+
+     <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.7834402528315!2d3.235118673546788!3d6.549004722869438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b853f9cb14475%3A0xc96b679d4e917aad!2s12%20Lasu-Isheri%20Rd%2C%20Ijegun%2C%20Lagos%20102213%2C%20Lagos!5e0!3m2!1sen!2sng!4v1746710321690!5m2!1sen!2sng" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+     </div>
 
      <footer style="background-color: white;">
 
